@@ -10,6 +10,7 @@
 
 
 
+__attribute__((objc_subclassing_restricted))
 @interface GNAsyncTaskToken : NSObject
 
 + (instancetype)createNew;
