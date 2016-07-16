@@ -1,42 +1,25 @@
 #
-# Be sure to run `pod lib lint GNTesting.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
+#  Created by Games Neox - 2016
+#  Copyright © 2016 Games Neox. All rights reserved.
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'GNTesting'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GNTesting.'
+s.name             = 'GNTesting'
+s.version          = '0.1.0'
+s.summary          = 'Asynchronous testing tool for Objective-C'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.homepage         = 'https://github.com/games-neox/GNTesting'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'Games Neox' => 'games.neox@gmail.com' }
+s.source           = { :git => 'https://github.com/games-neox/GNTesting.git', :tag => s.version.to_s }
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.ios.deployment_target = '8.0'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/GNTesting'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Games Neox' => 'games.neox@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/GNTesting.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.dependency 'GNExceptions'
+s.dependency 'GNLog'
+s.dependency 'GNPreconditions'
 
-  s.ios.deployment_target = '8.0'
+s.source_files = 'GNTesting/Classes/*'
 
-  s.source_files = 'GNTesting/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'GNTesting' => ['GNTesting/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.public_header_files = 'GNTesting/Classes/*.h'
 end

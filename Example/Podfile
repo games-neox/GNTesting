@@ -1,6 +1,5 @@
 use_frameworks!
 target 'GNTesting_Tests' do
   pod 'GNTesting', :path => '../'
-  
-  
+
 end
