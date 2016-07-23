@@ -8,7 +8,7 @@
 
 #import "GNAsyncTaskTokenTest.h"
 
-#import <GNExceptions/GNIllegalArgumentException.h>
+#import "GNIllegalArgumentException.h"
 
 
 
