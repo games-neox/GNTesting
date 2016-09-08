@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'GNTesting'
-s.version          = '0.3.0'
+s.version          = '0.3.1'
 s.summary          = 'Asynchronous testing tool for Objective-C/Swift'
 
 s.homepage         = 'https://github.com/games-neox/GNTesting'
