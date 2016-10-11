@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "GNAsyncTaskToken.h"
+#import <GNTesting/GNAsyncTaskToken.h>
 
 #define DEFAULT_TIME_OUT_S ((NSTimeInterval) 5.f)
 

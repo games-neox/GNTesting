@@ -343,7 +343,6 @@
 			baseConfigurationReference = 1C1A6B1D3829FAEF3BFF3D0B /* Pods-GNTesting_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
@@ -366,7 +365,6 @@
 			baseConfigurationReference = 5EE33AE3BC3ED4CCDF48E7E9 /* Pods-GNTesting_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);

@@ -6,7 +6,7 @@
 //  Copyright © 2016 Games Neox. All rights reserved.
 //
 
-#import "GNAsyncTaskToken.h"
+#import <GNTesting/GNAsyncTaskToken.h>
 
 #import <GNExceptions/GNIllegalArgumentException.h>
 #import <GNLog/GNLog.h>
