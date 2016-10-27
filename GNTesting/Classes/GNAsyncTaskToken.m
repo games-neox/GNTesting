@@ -1,6 +1,6 @@
 //
 //  GNAsyncTaskToken.m
-//  TicTacToe
+//  GNTesting
 //
 //  Created by Games Neox - 2016
 //  Copyright © 2016 Games Neox. All rights reserved.
@@ -24,7 +24,7 @@
 @end
 
 
-static const NSString* const LOG_TAG = @"AsyncTaskToken";
+static const NSString* const LOG_TAG = @"GNAsyncTaskToken";
 
 
 @implementation GNAsyncTaskToken
